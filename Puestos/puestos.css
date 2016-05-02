@@ -1,0 +1,37 @@
+.titulo-puestos {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: arial;
+}
+.foto-puestos {
+	/*border: 2px dashed #dddddc;   /* dashed linea punteada con 2px ancho y color */
+	margin-left: 5%;
+}
+.catalogo-puestos input{
+	display: block;
+	width:100% ;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border:1px solid gray ;
+	background :#f7f8f9; 
+	padding: 2%;          /* espacio hacia adentro por todos los lados */
+}
+.foto-puestos img{
+	width: 145px;
+    height: 145px;
+    /*border-radius: 50%;*/
+    margin: 30px auto;
+    display: block;
+}
+.datos{
+	padding-top: 9%;
+}
+.botones button:last-of-type:hover{
+	background: #04B404  ;
+	border-color: #088A08 ;
+	color: #fff;
+	text-shadow: 0 1px 0 transparent; 
+} 
