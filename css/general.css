@@ -1,0 +1,20 @@
+.tabla {
+	width: 95%;
+	margin: 0 auto;
+}
+.tabla tr:nth-child(even) {
+	background: #E6E6E6;
+}
+.tabla tr:nth-child(even){
+	background: #F2F2F2;
+}
+.tabla td {
+	width: 100px;
+}
+.tabla span:nth-child(1){
+	margin-left: 0;
+}
+.tabla span {
+	margin-left: 35%;
+	cursor: pointer;
+}
